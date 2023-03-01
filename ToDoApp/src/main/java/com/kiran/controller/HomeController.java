@@ -24,7 +24,7 @@ public class HomeController {
 		return "home";
 	}
 	
-	@RequestMapping("/add")
+	@RequestMapping("/addToDo")
 	public String add(Model m){
 		ToDo t = new ToDo();
 		m.addAttribute("page", "add");
